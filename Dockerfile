@@ -1,9 +1,9 @@
 FROM alpine:3.7
 MAINTAINER Logan Cerkovnik
 
-# ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
-# ENV BAZEL_VERSION 0.10.0
-# ENV TENSORFLOW_VERSION 1.7.0
+ENV JAVA_HOME /usr/lib/jvm/java-1.8-openjdk
+ENV BAZEL_VERSION 0.10.0
+ENV TENSORFLOW_VERSION 1.7.0
 
 RUN true \
     && apk upgrade --update \
